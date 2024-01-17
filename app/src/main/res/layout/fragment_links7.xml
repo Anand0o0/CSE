@@ -1,0 +1,62 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/gh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        1. GITHUB"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/LI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        2. LINKED IN"
+            android:textSize="18dp"
+            android:layout_below="@+id/gh"/>
+
+        <TextView
+            android:id="@+id/fi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        3. FIGMA"
+            android:textSize="18dp"
+            android:layout_below="@+id/LI"/>
+
+        <TextView
+            android:id="@+id/flut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        4. FLUTTER"
+            android:textSize="18dp"
+            android:layout_below="@+id/fi"/>
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        5. WEB FLOW"
+            android:textSize="18dp"
+            android:layout_below="@+id/flut"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

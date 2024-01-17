@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/iw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        1. GROW.GOOGLE: INTERVIEW WARMUP"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/ic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        2. INTERVIEW CAKE"
+            android:textSize="18dp"
+            android:layout_below="@+id/iw"/>
+
+        <TextView
+            android:id="@+id/tih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        3. TECH INTERVIEW HANDBOOK"
+            android:textSize="18dp"
+            android:layout_below="@+id/ic"/>
+
+        <TextView
+            android:id="@+id/IB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        4. INTERVIEW BIT"
+            android:textSize="18dp"
+            android:layout_below="@+id/tih"/>
+    </RelativeLayout>
+</ScrollView>

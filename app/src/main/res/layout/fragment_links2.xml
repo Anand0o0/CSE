@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        1. ROADMAPS.SH"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/gfg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        2. GEEKS FOR GEEKS"
+        android:textSize="18dp"
+        android:layout_below="@+id/rs"/>
+
+    <TextView
+        android:id="@+id/fcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        3. FREE CODE CAMP"
+        android:textSize="18dp"
+        android:layout_below="@+id/gfg"/>
+
+    <TextView
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        4. COURSERA"
+        android:textSize="18dp"
+        android:layout_below="@+id/fcc"/>
+    </RelativeLayout>
+</ScrollView>

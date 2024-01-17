@@ -1,0 +1,69 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hackrank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        1. HACKER RANK"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/hackearth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="        2. HACKER EARTH"
+        android:textSize="18dp"
+        android:layout_below="@+id/hackrank"/>
+
+        <TextView
+            android:id="@+id/GFG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        3. GEEKS FOR GEEKS"
+            android:textSize="18dp"
+            android:layout_below="@+id/hackearth"/>
+
+        <TextView
+            android:id="@+id/st"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        4. STRIVERS"
+            android:textSize="18dp"
+            android:layout_below="@+id/GFG"/>
+
+        <TextView
+            android:id="@+id/lc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        5. LEET CODE"
+            android:textSize="18dp"
+            android:layout_below="@+id/st"/>
+
+        <TextView
+            android:id="@+id/ib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        6. INTERVIEW BIT"
+            android:textSize="18dp"
+            android:layout_below="@+id/lc"/>
+
+    </RelativeLayout>
+</ScrollView>
