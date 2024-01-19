@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class home extends AppCompatActivity {
 
-    ImageView spe,up,ty,ab;
+    ImageView spe,up,ty,no,abs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +18,9 @@ public class home extends AppCompatActivity {
         spe=findViewById(R.id.special);
         up=findViewById(R.id.upgradess);
         ty=findViewById(R.id.trth);
-        ab=findViewById(R.id.aboutuss);
+
+        no=findViewById(R.id.notification);
+        abs=findViewById(R.id.about);
 
         spe.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,10 +46,20 @@ public class home extends AppCompatActivity {
             }
         });
 
-        ab.setOnClickListener(new View.OnClickListener() {
+
+
+        abs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(home.this,abotus.class);
+                startActivity(intent);
+            }
+        });
+
+        no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(home.this, notifications.class);
                 startActivity(intent);
             }
         });

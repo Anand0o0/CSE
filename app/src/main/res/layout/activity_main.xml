@@ -4,20 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CACFED"
+    android:background="@drawable/cp3"
+    android:alpha=".9"
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginRight="125dp"
-        android:background="@color/cardview_shadow_end_color"
-        android:padding="2dp"
-        android:src="@drawable/user">
-    </ImageView>
+
 
 
 
@@ -29,8 +21,9 @@
         android:layout_marginLeft="80dp"
         android:layout_marginTop="280dp"
         android:layout_marginBottom="350dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginRight="80dp"
         android:hint="username"
+        android:textColorHint="#8A000000"
         android:textSize="20dp"
         android:drawableLeft="@drawable/username"
         android:drawablePadding="20dp"
@@ -44,8 +37,9 @@
         android:layout_marginLeft="80dp"
         android:layout_marginTop="380dp"
         android:layout_marginBottom="450dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginRight="80dp"
         android:hint="password"
+        android:textColorHint="#8A000000"
         android:textSize="20dp"
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="25dp"
@@ -58,9 +52,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="470dp"
-        android:layout_marginRight="110dp"
+        android:layout_marginRight="140dp"
         android:padding="5dp"
-        android:text="Login"></Button>
+        android:text="Login"
+        android:background="@drawable/curve_border"
+        android:textColor="@color/black">
+
+    </Button>
 
 
 
@@ -70,12 +68,26 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="580dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginRight="10dp"
         android:gravity="center"
-        android:text="new user"
-        android:textColor="#0D208C"
+        android:text="NEW USER?"
+        android:textColor="#F3E4BE"
         android:textSize="18dp"
         android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="200dp"
+        android:gravity="center"
+        android:text="Admin"
+        android:textColor="#F3E4BE"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
 
 
 </RelativeLayout>

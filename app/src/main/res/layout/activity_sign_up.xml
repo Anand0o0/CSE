@@ -5,13 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp">
+    tools:context=".SignUp"
+    android:background="@drawable/spec2">
 
     <TextView
         android:id="@+id/signuptextview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Signup"
+        android:textColor="#F3E4BE"
         android:textStyle="bold"
         android:textSize="20dp"
         android:gravity="center"
@@ -26,9 +28,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/signuptextview"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="20dp"
-        android:hint="Name" />
+        android:hint="Name"
+        android:textColorHint="#0B0B0A"/>
 
     <EditText
         android:id="@+id/editTextUsername"
@@ -38,7 +41,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Username" />
+        android:hint="Username"
+        android:textColorHint="#0B0B0A"/>
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -48,6 +52,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:textColorHint="#0B0B0A"
         android:hint="Password" />
 
 
@@ -59,7 +64,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Colloge Name" />
+        android:hint="Colloge Name"
+        android:textColorHint="#0B0B0A"/>
 
 
 

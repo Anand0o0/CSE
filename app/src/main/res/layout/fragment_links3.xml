@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Gfg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:text="        1. GEEKS FOR GEEKS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/jp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:text="        2. JAVA T POINT"
+            android:textSize="18dp"
+            android:layout_below="@+id/Gfg"/>
+
+        <TextView
+            android:id="@+id/sto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:text="        3. STACK OVERFLOW DOCUMENTATION"
+            android:textSize="18dp"
+            android:layout_below="@+id/jp"/>
+
+        <TextView
+            android:id="@+id/tp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:text="        4. TUTORIALS POINT"
+            android:textSize="18dp"
+            android:layout_below="@+id/sto"/>
+        <TextView
+            android:id="@+id/w3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+          android:textStyle="bold"
+             android:textColor="#0629A8"
+            android:text="        4. W 3 SCHOOLS"
+            android:textSize="18dp"
+            android:layout_below="@+id/tp"/>
+    </RelativeLayout>
+</ScrollView>

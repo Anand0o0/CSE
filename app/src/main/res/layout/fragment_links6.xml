@@ -1,0 +1,81 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/JP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        1. JP MORGAN(3RD YEAR)"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/aicte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        2. AICTE"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp"
+            android:layout_below="@+id/JP"/>
+
+        <TextView
+            android:id="@+id/IS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        3. INTERSHALA"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp"
+            android:layout_below="@+id/aicte"/>
+
+        <TextView
+            android:id="@+id/fo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        4. FORAGE"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp"
+            android:layout_below="@+id/IS"/>
+
+        <TextView
+            android:id="@+id/LI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        5. LINKED IN"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp"
+            android:layout_below="@+id/fo"/>
+
+        <TextView
+            android:id="@+id/in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="        6. INDEED"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
+            android:textSize="18dp"
+            android:layout_below="@+id/LI"/>
+
+    </RelativeLayout>
+</ScrollView>
