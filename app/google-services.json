@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "150241004830",
+    "firebase_url": "https://android-apps-master-default-rtdb.firebaseio.com",
+    "project_id": "android-apps-master",
+    "storage_bucket": "android-apps-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150241004830:android:3419eaf0f7e53755e48d0f",
+        "android_client_info": {
+          "package_name": "com.example.cse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCHtbfP158aUrwmj5ZRb-npyjiJLZ1hvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

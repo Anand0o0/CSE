@@ -13,6 +13,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        1. GROW.GOOGLE: INTERVIEW WARMUP"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp" />
 
         <TextView
@@ -22,6 +24,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        2. INTERVIEW CAKE"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/iw"/>
 
@@ -32,6 +36,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        3. TECH INTERVIEW HANDBOOK"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/ic"/>
 
@@ -42,6 +48,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        4. INTERVIEW BIT"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/tih"/>
     </RelativeLayout>

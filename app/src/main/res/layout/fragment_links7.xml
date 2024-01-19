@@ -12,6 +12,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:text="        1. GITHUB"
             android:textSize="18dp" />
 
@@ -21,6 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:text="        2. LINKED IN"
             android:textSize="18dp"
             android:layout_below="@+id/gh"/>
@@ -31,6 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:text="        3. FIGMA"
             android:textSize="18dp"
             android:layout_below="@+id/LI"/>
@@ -41,6 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:text="        4. FLUTTER"
             android:textSize="18dp"
             android:layout_below="@+id/fi"/>
@@ -51,6 +59,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:text="        5. WEB FLOW"
             android:textSize="18dp"
             android:layout_below="@+id/flut"/>

@@ -11,9 +11,10 @@
         android:id="@+id/myImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/aboutus1"
+        android:adjustViewBounds="true"
         android:alpha=".4"
-        android:adjustViewBounds="true"/>
+        android:scaleType="fitXY"
+        android:src="@drawable/spec2" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,11 +31,88 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="italic"
+                android:textStyle="italic|bold"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="5dp">
 
             </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabo"
+                android:layout_marginTop="10dp"
+                android:text=" FOLLOW US ON"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:textColor="#05024E"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:id="@+id/xyz"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANAND"
+                android:layout_below="@+id/xyz"
+                android:layout_marginTop="10dp"
+                android:id="@+id/an"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUPRADEEP"
+                android:layout_below="@+id/xyz"
+                android:layout_marginTop="10dp"
+                android:id="@+id/su"
+                android:layout_marginLeft="240dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/an"
+               android:layout_marginLeft="60dp"
+               android:src="@drawable/email"
+               android:id="@+id/ean"
+               android:layout_marginTop="10dp"
+               />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/su"
+                android:layout_marginLeft="300dp"
+                android:src="@drawable/email"
+                android:layout_marginTop="10dp"
+                android:id="@+id/esu"
+                />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/esu"
+                android:layout_marginLeft="300dp"
+                android:src="@drawable/linkin"
+                android:id="@+id/lsu"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/ean"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/linkin"
+                android:id="@+id/lan"
+                android:layout_marginTop="10dp"
+                />
+
         </RelativeLayout>
     </ScrollView>
 

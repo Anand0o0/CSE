@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".p2special">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/curve"></LinearLayout>
+
     <TextView
         android:id="@+id/cyber"
         android:layout_width="300dp"
@@ -12,6 +18,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="10dp"
         android:text="5. Cyber Security"
+         android:textColor="#000040"
+         android:textStyle="bold"
         android:textSize="20dp"></TextView>
 
     <TextView
@@ -21,6 +29,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="60dp"
         android:text="6. Information Technology"
+         android:textColor="#000040"
+         android:textStyle="bold"
         android:textSize="20dp"></TextView>
 
     <TextView
@@ -30,6 +40,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="110dp"
         android:text="7. Computer Networking"
+         android:textColor="#000040"
+         android:textStyle="bold"
         android:textSize="20dp"></TextView>
 
     <TextView
@@ -39,5 +51,15 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="160dp"
         android:text="8. Block Chain Technology"
+         android:textColor="#000040"
+         android:textStyle="bold"
         android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="______________________________________________"
+        android:gravity="center"></TextView>
+
 </RelativeLayout>

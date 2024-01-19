@@ -13,6 +13,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:text="        1. ROADMAPS.SH"
+         android:textStyle="bold"
+        android:textColor="#0629A8"
         android:textSize="18dp" />
 
     <TextView
@@ -22,6 +24,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:text="        2. GEEKS FOR GEEKS"
+         android:textStyle="bold"
+        android:textColor="#0629A8"
         android:textSize="18dp"
         android:layout_below="@+id/rs"/>
 
@@ -32,6 +36,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:text="        3. FREE CODE CAMP"
+         android:textStyle="bold"
+        android:textColor="#0629A8"
         android:textSize="18dp"
         android:layout_below="@+id/gfg"/>
 
@@ -42,6 +48,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:text="        4. COURSERA"
+         android:textStyle="bold"
+        android:textColor="#0629A8"
         android:textSize="18dp"
         android:layout_below="@+id/fcc"/>
     </RelativeLayout>

@@ -13,6 +13,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        1. NPTEL"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp" />
 
         <TextView
@@ -22,6 +24,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        2. FREE MICROSOFT CERTIFICATION EXAM OFFER"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/np"/>
 
@@ -32,6 +36,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        3. INFOSYS SPRINGBOARD"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/micro"/>
 
@@ -42,6 +48,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        4. GROW WITH INDIA GOOGLE"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/is"/>
 
@@ -52,6 +60,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        5. COURSEERA(PAID)"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/ig"/>
 
@@ -62,6 +72,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        6. FREE DIGITAL LEARNING - IBM TRAINING"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/cp"/>
 
@@ -73,6 +85,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="5dp"
             android:text="        7. ORACLE UNIVERSITY"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:textSize="18dp"
             android:layout_below="@+id/ibm"/>
     </RelativeLayout>

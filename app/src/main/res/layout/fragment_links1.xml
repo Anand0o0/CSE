@@ -13,6 +13,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="5dp"
         android:text="        1. HACKER RANK"
+        android:textStyle="bold"
+        android:textColor="#0629A8"
         android:textSize="18dp" />
 
     <TextView
@@ -23,6 +25,8 @@
         android:layout_marginEnd="5dp"
         android:text="        2. HACKER EARTH"
         android:textSize="18dp"
+         android:textStyle="bold"
+        android:textColor="#0629A8"
         android:layout_below="@+id/hackrank"/>
 
         <TextView
@@ -33,6 +37,8 @@
             android:layout_marginEnd="5dp"
             android:text="        3. GEEKS FOR GEEKS"
             android:textSize="18dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:layout_below="@+id/hackearth"/>
 
         <TextView
@@ -43,6 +49,8 @@
             android:layout_marginEnd="5dp"
             android:text="        4. STRIVERS"
             android:textSize="18dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:layout_below="@+id/GFG"/>
 
         <TextView
@@ -53,6 +61,8 @@
             android:layout_marginEnd="5dp"
             android:text="        5. LEET CODE"
             android:textSize="18dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:layout_below="@+id/st"/>
 
         <TextView
@@ -63,6 +73,8 @@
             android:layout_marginEnd="5dp"
             android:text="        6. INTERVIEW BIT"
             android:textSize="18dp"
+             android:textStyle="bold"
+        android:textColor="#0629A8"
             android:layout_below="@+id/lc"/>
 
     </RelativeLayout>

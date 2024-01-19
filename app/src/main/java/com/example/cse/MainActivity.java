@@ -7,14 +7,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     EditText username, password;
     Button Login;
-    TextView Newuser;
-
+    TextView Newuser,Admin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         Login = findViewById(R.id.login);
         Newuser = findViewById(R.id.newuser);
+        Admin=findViewById(R.id.Admin);
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +54,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SignUp.class);
+                startActivity(intent);
+            }
+        });
+
+        Admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,AdminLogin.class);
                 startActivity(intent);
             }
         });

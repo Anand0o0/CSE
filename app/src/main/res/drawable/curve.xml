@@ -2,7 +2,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#9FF3E4BE" /> <!-- Lavender background color -->
     <corners android:radius="16dp" /> <!-- Adjust the radius to control the roundness -->
-    <stroke
-        android:width="2dp"
-        android:color="#ECC156" /> <!-- Lavender border color -->
 </shape>
