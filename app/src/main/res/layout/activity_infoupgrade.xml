@@ -5,15 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Infoupgrade">
+    tools:context=".Infoupgrade"
+    android:background="#BDF4F4">
 
     <ImageView
         android:id="@+id/myImageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"
         android:alpha=".5"
         android:scaleType="fitXY"
-        android:src="@drawable/spec1" />
+        android:src="@drawable/fb1" />
 
     <ScrollView
         android:layout_width="match_parent"

@@ -5,8 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cp3"
+    android:background="#BDF4F4"
     tools:context=".AdminLogin">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"
+        android:alpha=".6"
+        android:background="@drawable/fb1">
+
+    </ImageView>
 
     <EditText
         android:id="@+id/aname"

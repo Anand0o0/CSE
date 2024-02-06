@@ -5,16 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".abotus">
+    tools:context=".abotus"
+    android:background="#BDF4F4">
 
     <ImageView
         android:id="@+id/myImageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="400dp"
         android:adjustViewBounds="true"
-        android:alpha=".4"
+        android:layout_marginTop="200dp"
         android:scaleType="fitXY"
-        android:src="@drawable/spec2" />
+        android:alpha=".7"
+        android:src="@drawable/fb1" />
 
     <ScrollView
         android:layout_width="match_parent"

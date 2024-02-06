@@ -6,14 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUp"
-    android:background="@drawable/spec2">
+    android:background="#BDF4F4">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/fb1">
 
+    </ImageView>
     <TextView
         android:id="@+id/signuptextview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Signup"
-        android:textColor="#F3E4BE"
+        android:textColor="#EDAE0D"
         android:textStyle="bold"
         android:textSize="20dp"
         android:gravity="center"

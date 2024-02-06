@@ -4,14 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".upgradeyou">
-    <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha=".8"
-        android:scaleType="fitXY"
-        android:src="@drawable/cp1" />
+    tools:context=".upgradeyou"
+    android:background="#BDF4F4"
+    android:id="@+id/rel">
+
+
 
     <TextView
         android:id="@+id/up"
@@ -19,8 +16,12 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Updrade yourself"
-        android:textColor="#E4B938"
-        android:textSize="25dp"></TextView>
+        android:textColor="#108708"
+        android:textSize="25dp"
+        android:background="#CCF1EB">
+
+    </TextView>
+
 
 
 
@@ -39,12 +40,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent"
-
-            >
+            app:cardBackgroundColor="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,10 +58,10 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="DSA"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -74,10 +73,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -93,7 +92,8 @@
                     android:background="@android:color/transparent"
                     android:gravity="center"
                     android:text="Road maps"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -107,10 +107,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,7 +125,8 @@
                     android:layout_height="140dp"
                     android:gravity="center"
                     android:text="Certifications"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold">
 
@@ -141,10 +142,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -159,7 +160,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="Study materials"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -173,10 +175,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -191,7 +193,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="Interview    Preparation"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -205,17 +208,18 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                app:cardBackgroundColor="@color/white">
 
                 <TextView
                     android:id="@+id/intership"
@@ -223,7 +227,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="Internship"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -237,10 +242,10 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -255,7 +260,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="Should Knows"
-                    android:textColor="#F3E4BE"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -269,10 +275,10 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@android:color/transparent">
+            app:cardBackgroundColor="@color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -286,12 +292,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Technical trends"
-                    android:textColor="#F3E4BE"
+                    android:text="Specialiation"
+                    android:textColor="#0C0C0C"
+                    android:foreground="@drawable/effect"
                     android:textSize="24dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
+
 
 </RelativeLayout>
