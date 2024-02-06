@@ -1,37 +1,21 @@
 package com.example.cse;
 
-import android.app.IntentService;
-import android.content.Context;
-import android.content.Intent;
+        import android.content.BroadcastReceiver;
+        import android.content.Context;
+        import android.content.Intent;
 
-public class IntentInfoupgrageyou extends IntentService {
-
-    private static final String ACTION_FOO = "com.example.cse.action.FOO";
-    private static final String EXTRA_BUTTON_CLICKED = "com.example.cse.extra.BUTTON_CLICKED";
-
-    public IntentInfoupgrageyou() {
-        super("IntentInfoupgrageyou");
-    }
-
-    public static void startActionFoo(Context context, String buttonclicked) {
-        Intent intent = new Intent(context, IntentInfoupgrageyou.class);
-        intent.setAction(ACTION_FOO);
-        intent.putExtra(EXTRA_BUTTON_CLICKED, buttonclicked);
-        context.startService(intent);
-    }
+public class MyBroadcastReceiver extends BroadcastReceiver {
 
     @Override
-    protected void onHandleIntent(Intent intent) {
-        if (intent != null) {
-            final String action = intent.getAction();
-            if (ACTION_FOO.equals(action)) {
-                final String buttonClicked = intent.getStringExtra(EXTRA_BUTTON_CLICKED);
-                handleActionFoo(buttonClicked);
-            }
+    public void onReceive(Context context, Intent intent) {
+        if ("com.example.cse.ACTION_FOO".equals(intent.getAction())) {
+            final String buttonClicked = intent.getStringExtra("EXTRA_BUTTON_CLICKED");
+            handleActionFoo(context, buttonClicked);
+
         }
     }
 
-    private void handleActionFoo(String buttonClicked) {
+    private void handleActionFoo(Context context, String buttonClicked) {
         // Simulate loading data based on the button clicked
         String loadedData = null;
         if (upgradeyou.Con.b1.equals(buttonClicked)) {
@@ -55,6 +39,7 @@ public class IntentInfoupgrageyou extends IntentService {
         // Broadcast the loaded data
         Intent broadcastIntent = new Intent("com.example.cse.DATA_LOADED");
         broadcastIntent.putExtra("loadedData", loadedData);
-        sendBroadcast(broadcastIntent);
+        context.sendBroadcast(broadcastIntent);
     }
 }
+

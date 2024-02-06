@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class trythis extends AppCompatActivity {
@@ -18,6 +21,14 @@ public class trythis extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trythis);
+       // RelativeLayout rootLayout = findViewById(R.id.relative); // Replace with your actual root layout ID
+
+        // Load the slide-in animation from the right
+       // Animation slideInRightAnimation = AnimationUtils.loadAnimation(this, R.anim.left);
+
+        // Apply the animation to the root layout
+        //rootLayout.startAnimation(slideInRightAnimation);
+
 
         setupButton(R.id.button1, Constants.BUTTON_1, R.id.contentView1);
         setupButton(R.id.button2, Constants.BUTTON_2, R.id.contentView2);

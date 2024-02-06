@@ -5,8 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".notifications">
+    tools:context=".notifications"
+    android:id="@+id/relative"
+    android:background="#BDF4F4">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="200dp"
+     android:background="@drawable/fb1">
 
+</ImageView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,14 +26,6 @@
         android:textColor="#F3E4BE"
         android:background="#0C3C78"/>
 
-    <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/aq"
-        android:alpha=".6"
-        android:scaleType="fitXY"
-        android:src="@drawable/spec2" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

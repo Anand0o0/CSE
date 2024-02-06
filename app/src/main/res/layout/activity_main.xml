@@ -4,11 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cp3"
-    android:alpha=".9"
+    android:background="#BDF4F4"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
 
+        android:scaleType="fitXY"
+        android:src="@drawable/fb1" />
 
 
 
@@ -71,7 +77,7 @@
         android:layout_marginRight="10dp"
         android:gravity="center"
         android:text="NEW USER?"
-        android:textColor="#F3E4BE"
+        android:textColor="#ECB323"
         android:textSize="18dp"
         android:textStyle="bold"></TextView>
 
@@ -84,7 +90,7 @@
         android:layout_marginRight="200dp"
         android:gravity="center"
         android:text="Admin"
-        android:textColor="#F3E4BE"
+        android:textColor="#ECB323"
         android:textSize="20dp"
         android:textStyle="bold"></TextView>
 
